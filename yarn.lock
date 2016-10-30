@@ -54,6 +54,10 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@angularclass/hmr/-/hmr-1.2.1.tgz#991314ee4e9babeb0908dee25ee7c1b0aa31d44f"
 
+"@google/maps@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@google/maps/-/maps-0.3.0.tgz#32299f45a1303be4b560359e3c6a1befc111f946"
+
 "@types/hammerjs@^2.0.33":
   version "2.0.33"
   resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.33.tgz#45f57352474181425bb4b65f7313a60426d54bab"
@@ -163,6 +167,10 @@ alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
 amdefine@>=0.0.4, amdefine@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.0.tgz#fd17474700cb5cc9c2b709f0be9d23ce3c198c33"
+
+angular2-google-maps@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/angular2-google-maps/-/angular2-google-maps-0.15.0.tgz#279a20ab49dd97591f521bc03763157d0b839ee2"
 
 angular2-template-loader@^0.5.0:
   version "0.5.0"
@@ -1527,7 +1535,7 @@ expose-loader@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-0.7.1.tgz#411ee89443aa682f8ea9d9111accf41bfd7e94d9"
 
-express@^4.13.3:
+express@^4.13.3, express@^4.14.0:
   version "4.14.0"
   resolved "https://registry.yarnpkg.com/express/-/express-4.14.0.tgz#c1ee3f42cdc891fb3dc650a8922d51ec847d0d66"
   dependencies:
