@@ -15,7 +15,7 @@
   "scripts": {
     "build:dev": "cd client && webpack --config config/webpack.dev.js --progress --profile",
     "build:docker": "npm run build:prod && docker build -t angular2-webpack-start:latest .",
-    "build:prod": "cd client && webpack --config config/webpack.prod.js  --progress --profile --bail && cd .. && node_modules/.bin/ncp client/dist server/public/app",
+    "build:prod": "cd client && webpack --config config/webpack.prod.js  --progress --profile --bail && cd .. && node_modules/.bin/ncp client/dist server/public",
     "build": "npm run build:dev",
     "ci": "npm run lint && npm test && npm run e2e",
     "clean:dist": "npm run rimraf -- dist",
