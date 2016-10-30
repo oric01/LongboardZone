@@ -9,8 +9,8 @@
     "longboard",
     "google map"
   ],
-  "author": "Patrick Stapleton <patrick@angularclass.com>",
-  "homepage": "https://github.com/angularclass/angular2-webpack-starter",
+  "author": "Olivier Farlotti <olivierfarlotti@gmail.com>",
+  "homepage": "http://olivierfarlotti.free.fr",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
@@ -145,5 +145,6 @@
   "engines": {
     "node": ">= 4.2.1",
     "npm": ">= 3"
-  }
+  },
+  "main": "server/server.js"
 }
