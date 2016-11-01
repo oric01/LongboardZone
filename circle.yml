@@ -1,3 +1,10 @@
 machine:
   node:
     version: 6.5.0
+  post:
+    - npm install -g npm@3.x.x
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: longboardzone
