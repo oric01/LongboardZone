@@ -18,7 +18,7 @@
     "build:prod": "cd client && webpack --config config/webpack.prod.js  --progress --profile --bail && cd .. && node_modules/.bin/ncp client/dist server/public",
     "build": "npm run build:dev",
     "ci": "npm run lint && npm test && npm run e2e",
-    "clean:dist": "npm run rimraf -- dist",
+    "clean:dist": "rm -rf dist",
     "clean:install": "npm set progress=false && npm install",
     "clean:start": "npm start",
     "clean": "npm cache clean && npm run rimraf -- node_modules doc coverage dist",
